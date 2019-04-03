@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ATADetector:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8583b06-7a63-4c19-80bd-07fcc2577260" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-baksmali.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-baksmali.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex-recompute-checksum.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex-recompute-checksum.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex2jar.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex2jar.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex2smali.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex2smali.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jar2dex.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jar2dex.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jar2jasmin.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jar2jasmin.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jasmin2jar.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jasmin2jar.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-smali.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-smali.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-std-apk.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-std-apk.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j_invoke.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j_invoke.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/antlr-runtime-3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/asm-debug-all-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/d2j-base-cmd-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/d2j-jasmin-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/d2j-smali-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-ir-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-reader-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-reader-api-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-tools-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-translator-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-writer-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dx-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/bin/dex-tools" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/bin/dex-tools.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-apk-sign.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-apk-sign.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-asm-verify.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-asm-verify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-baksmali.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-baksmali.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-class-version-switch.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-class-version-switch.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-decrypt-string.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-decrypt-string.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex-recompute-checksum.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex-recompute-checksum.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex-weaver.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex-weaver.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex2jar.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex2jar.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex2smali.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex2smali.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar-access.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar-access.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar-weaver.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar-weaver.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar2dex.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar2dex.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar2jasmin.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar2jasmin.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jasmin2jar.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jasmin2jar.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-smali.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-smali.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-std-apk.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-std-apk.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j_invoke.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j_invoke.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/ST4-4.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/antlr-3.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/antlr-runtime-3.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/antlr4-4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/antlr4-runtime-4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/asm-debug-all-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/d2j-base-cmd-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/d2j-jasmin-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/d2j-smali-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-ir-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-reader-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-reader-api-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-tools-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-translator-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-writer-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dx-23.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/open-source-license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/org.abego.treelayout.core-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATADetector/META-INF/ATADetector.kotlin_module" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/MainAPKLooper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6615">
+              <caret line="457" column="30" selection-start-line="457" selection-start-column="30" selection-end-line="457" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/ATADetector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="174" column="16" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#ATADetector#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/JSONSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/javalevel/ATADJavaLevel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/FileUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4065">
+              <caret line="284" column="19" selection-start-line="284" selection-start-column="19" selection-end-line="284" selection-end-column="19" />
+              <folding>
+                <element signature="method#saveFileOnFileSystem#0;class#FileUtil#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/ATADLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
+              <folding>
+                <element signature="docComment;class#ATADLogger#0" />
+                <element signature="docComment;method#logError#0;class#ATADLogger#0" />
+                <element signature="method#logError#0;class#ATADLogger#0" />
+                <element signature="docComment;method#logWarning#0;class#ATADLogger#0" />
+                <element signature="method#logWarning#0;class#ATADLogger#0" />
+                <element signature="docComment;method#logInfo#0;class#ATADLogger#0" />
+                <element signature="method#logInfo#0;class#ATADLogger#0" />
+                <element signature="docComment;method#logVerboseInfo#0;class#ATADLogger#0" />
+                <element signature="method#logVerboseInfo#0;class#ATADLogger#0" />
+                <element signature="docComment;method#directlyLog#0;class#ATADLogger#0" />
+                <element signature="method#directlyLog#0;class#ATADLogger#0" />
+                <element signature="docComment;method#getStringFromException#0;class#ATADLogger#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>owner + &quot;.&quot; + name</find>
+      <find>value</find>
+      <find>currentClassProperties.get</find>
+      <find>classesProperties</find>
+      <find>.getName(</find>
+      <find>println</find>
+      <find>“</find>
+      <find>,</find>
+      <find>doinf</find>
+      <find>pathOfProtectionPatternsJSON</find>
+      <find>dex</find>
+      <find>.delete</find>
+      <find>temporaryDirectory</find>
+      <find>apkPathWithoutNameAndExtension</find>
+      <find>resultsFolder</find>
+      <find>aapt</find>
+      <find>scra</find>
+      <find>results</find>
+      <find>log</find>
+      <find>resultsFolderPath</find>
+      <find>user.dir</find>
+      <find>Files.</find>
+      <find>classFile</find>
+      <find>splitting</find>
+      <find>filters</find>
+      <find>throw</find>
+      <find>saveFile</find>
+      <find>readAllBytes</find>
+      <find>readAll</find>
+      <find>createShort</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>if the formula is satisfied (JAVA)</replace>
+      <replace>equals</replace>
+      <replace>// TODO how?</replace>
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/SymbolSearcher.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/Atadetector.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/ATADNativeLayer.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/classFileASMReader.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/methodFileASMReader.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/StaticCallGraph.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/classFileASMReader.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/ClassFileASMReader.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/MethodFileASMReader.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/FieldFileASMReader.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/FieldFileASMVisitor.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/ClassFileASMVisitor.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/MethodFileASMVisitor.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/JSONAggregator.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/ATADNativeLevel.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/javalevel/asm/ClassFileASMVisitor.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/javalevel/asm/MethodFileASMVisitor.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/util/ATADLogger.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/javalevel/ATADJavaLevel.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/MainAPKLooper.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/ATADetector.java" />
+        <option value="$PROJECT_DIR$/src/it/unitn/atadetector/util/JSONSolver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1602" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552495571291" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="aws" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ATADetector" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="it.unitn.atadetector.MainAPKLooper" />
+      <module name="ATADetector" />
+      <option name="PROGRAM_PARAMETERS" value="-p ./apks/ -t 4 -v 2 -o false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8583b06-7a63-4c19-80bd-07fcc2577260" name="Default Changelist" comment="" />
+      <created>1544198661543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544198661543</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23298284" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="aws.explorer" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997233" weight="0.32829374" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32937366" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24958494" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" />
+    </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/it/unitn.java" />
+    <entry file="file://$PROJECT_DIR$/ATADetector.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/StaticCallGraph.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/asm-6.2.1.jar!/org/objectweb/asm/ClassReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/asm-6.2.1.jar!/org/objectweb/asm/ClassVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/asm/FieldFileASMVisitor.java" />
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="351" column="29" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="390" column="18" selection-start-line="390" selection-start-column="18" selection-end-line="390" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="470" column="13" selection-start-line="470" selection-start-column="13" selection-end-line="470" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1113" selection-start-line="1113" selection-end-line="1113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/lang/ref/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="230" column="31" selection-start-line="230" selection-start-column="31" selection-end-line="230" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="432" selection-start-line="432" selection-end-line="432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="2293" column="23" selection-start-line="2293" selection-start-column="23" selection-end-line="2293" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="299" column="30" selection-start-line="299" selection-start-column="30" selection-end-line="299" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/json-20180813.jar!/org/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="532" column="21" selection-start-line="532" selection-start-column="21" selection-end-line="532" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/JSONAggregator.java" />
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/javalevel/asm/ClassFileASMVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/javalevel/asm/MethodFileASMVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/nativelevel/ATADNativeLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="317" selection-start-line="317" selection-end-line="317" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ATADNativeLevel#0" />
+            <element signature="docComment;method#ATADNativeLevel#0;class#ATADNativeLevel#0" />
+            <element signature="method#ATADNativeLevel#0;class#ATADNativeLevel#0" />
+            <element signature="docComment;method#analyzeSoLibraries#0;class#ATADNativeLevel#0" />
+            <element signature="docComment;method#extractSymbols#0;class#ATADNativeLevel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="1319" column="19" selection-start-line="1319" selection-start-column="19" selection-end-line="1319" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="913" column="16" selection-start-line="913" selection-start-column="16" selection-end-line="913" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/javalevel/ATADJavaLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4065">
+          <caret line="284" column="19" selection-start-line="284" selection-start-column="19" selection-end-line="284" selection-end-column="19" />
+          <folding>
+            <element signature="method#saveFileOnFileSystem#0;class#FileUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/ATADLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="docComment;class#ATADLogger#0" />
+            <element signature="docComment;method#logError#0;class#ATADLogger#0" />
+            <element signature="method#logError#0;class#ATADLogger#0" />
+            <element signature="docComment;method#logWarning#0;class#ATADLogger#0" />
+            <element signature="method#logWarning#0;class#ATADLogger#0" />
+            <element signature="docComment;method#logInfo#0;class#ATADLogger#0" />
+            <element signature="method#logInfo#0;class#ATADLogger#0" />
+            <element signature="docComment;method#logVerboseInfo#0;class#ATADLogger#0" />
+            <element signature="method#logVerboseInfo#0;class#ATADLogger#0" />
+            <element signature="docComment;method#directlyLog#0;class#ATADLogger#0" />
+            <element signature="method#directlyLog#0;class#ATADLogger#0" />
+            <element signature="docComment;method#getStringFromException#0;class#ATADLogger#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/MainAPKLooper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6615">
+          <caret line="457" column="30" selection-start-line="457" selection-start-column="30" selection-end-line="457" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/JSONSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/ATADetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="174" column="16" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ATADetector#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ATADetector:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ATADetector</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

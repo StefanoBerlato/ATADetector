@@ -1,0 +1,22 @@
+{
+  "DebuggerDetection_JAVA": 9,
+  "EmulatorDetection_NATIVE": 0,
+  "TimeChecks_NATIVE": 0,
+  "EmulatorDetection_JAVA": 4,
+  "SignatureChecking_NATIVE": 0,
+  "CodeIntegrityChecking_JAVA": 1,
+  "SignatureChecking_JAVA": 7,
+  "AlteringDebuggerMemoryStructure_JAVA": 0,
+  "DebuggerDetection_NATIVE": 0,
+  "SafetyNetAttestation_JAVA": 0,
+  "InstallerVerification_JAVA": 1,
+  "DebuggableStatusDetection_JAVA": 0,
+  "DebuggableStatusDetection_NATIVE": 0,
+  "InstallerVerification_NATIVE": 0,
+  "DynamicAnalysisFrameworkDetection_NATIVE": 1,
+  "SafetyNetAttestation_NATIVE": 0,
+  "CodeIntegrityChecking_NATIVE": 0,
+  "TimeChecks_JAVA": 107,
+  "DynamicAnalysisFrameworkDetection_JAVA": 1,
+  "AlteringDebuggerMemoryStructure_NATIVE": 0
+}

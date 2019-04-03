@@ -1,0 +1,666 @@
+{
+  "protectionCategory": [{
+    "categoryName": "Anti-Tampering",
+    "protection": [{
+        "_nameOfTheProtection": ["SignatureChecking", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [
+            ["java/security/MessageDigest", 0, 0],
+            ["android/content/pm/PackageInfo", 0, 0],
+            ["android/content/pm/Signature", 0, 0],
+            ["android/content/pm/PackageManager", 0, 0],
+            ["android/content/Context", 0, 0],
+            ["android/content/pm/VersionedPackage", 0, 0],
+            ["android/content/pm/SigningInfo", 0, 0]
+          ],
+          "methods": [
+            ["java/security/MessageDigest.getInstance", 0, 0],
+            ["java/security/MessageDigest.update", 0, 0],
+            ["java/security/MessageDigest.digest", 0, 0],
+            ["android/content/pm/PackageManager.getPackageInfo", 0, 0],
+            ["android/content/pm/Signature.toByteArray", 0, 0],
+            ["android/content/Context.getPackageManager", 0, 0],
+            ["android/content/Context.getPackageName", 0, 0],
+            ["android/content/pm/SigningInfo.getApkContentsSigners", 0, 0],
+            ["android/content/pm/SigningInfo.getSigningCertificateHistory", 0, 0]
+          ],
+          "attributes": [
+            ["android/content/pm/PackageManager.GET_SIGNATURES", 0, 0],
+            ["android/content/pm/PackageManager.GET_SIGNING_CERTIFICATES", 0, 0],
+            ["android/content/pm/PackageInfo.signatures", 0, 0]
+          ],
+          "strings": [
+            ["MD2", 0, 0],
+            ["MD5", 0, 0],
+            ["SHA", 0, 0],
+            ["SHA-1", 0, 0],
+            ["SHA-224", 0, 0],
+            ["SHA-256", 0, 0],
+            ["SHA-384", 0, 0],
+            ["SHA-512", 0, 0],
+            ["No package found for authority: ", 0, 0],
+   	    ["Found content provider ", 0, 0],
+	    [", but package was not ", 0, 0],
+
+            ["java.security.MessageDigest", 0, 0],
+            ["android.content.pm.PackageInfo", 0, 0],
+            ["android.content.pm.Signature", 0, 0],
+            ["android.content.pm.PackageManager", 0, 0],
+            ["android.content.Context", 0, 0],
+            ["android.content.pm.VersionedPackage", 0, 0],
+            ["android.content.pm.SigningInfo", 0, 0],
+
+
+            ["getInstance", 0, 0],
+            ["update", 0, 0],
+            ["digest", 0, 0],
+            ["getPackageInfo", 0, 0],
+            ["toByteArray", 0, 0],
+            ["getPackageManager", 0, 0],
+            ["getPackageName", 0, 0],
+            ["getApkContentsSigners", 0, 0],
+            ["getSigningCertificateHistory", 0, 0],
+
+            ["GET_SIGNATURES", 0, 0],
+            ["GET_SIGNING_CERTIFICATES", 0, 0],
+            ["signatures", 0, 0]
+          ]
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [],
+          "strings": [
+            ["META-INF/", 0, 0],
+            [".RSA", 0, 0],
+            [".DSA", 0, 0],
+            [".EC", 0, 0],
+            ["/proc/self/cmdline", 0, 0],
+            ["/proc/self/maps", 0, 0],
+            ["tbsCertificate", 0, 0],
+            ["version", 0, 0],
+            ["serialNumber", 0, 0],
+            ["signature", 0, 0],
+            ["issuer", 0, 0],
+            ["validity", 0, 0],
+            ["subject", 0, 0],
+            ["subjectPublicKeyInfo", 0, 0],
+            ["issuerUniqueID-[optional]", 0, 0],
+            ["subjectUniqueID-[optional]", 0, 0],
+            ["extensions-[optional]", 0, 0],
+            ["signatureAlgorithm", 0, 0],
+            ["signatureValue", 0, 0],
+            ["version", 0, 0],
+            ["issuerAndSerialNumber", 0, 0],
+            ["digestAlgorithmId", 0, 0],
+            ["authenticatedAttributes-[optional]", 0, 0],
+            ["digestEncryptionAlgorithmId", 0, 0],
+            ["encryptedDigest", 0, 0],
+            ["unauthenticatedAttributes-[optional]", 0, 0],
+            ["version", 0, 0],
+            ["DigestAlgorithms", 0, 0],
+            ["contentInfo", 0, 0],
+            ["certificates-[optional]", 0, 0],
+            ["crls-[optional]", 0, 0],
+            ["signerInfos", 0, 0],
+            ["signerInfo", 0, 0]
+          ]
+        }, 0, 0]
+      },
+      {
+        "_nameOfTheProtection": ["CodeIntegrityChecking", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [
+            ["java/util/zip/ZipFile", 0, 0],
+            ["java/util/zip/ZipEntry", 0, 0],
+            ["java/util/jar/JarFile", 0, 0],
+            ["java/util/jar/JarEntry", 0, 0],
+            ["java/util/zip/Adler32", 0, 0],
+            ["java/util/zip/CRC32", 0, 0],
+            ["android/content/Context", 0, 0],
+            ["android/content/pm/ApplicationInfo", 0, 0]
+          ],
+          "methods": [
+            ["android/content/Context.getPackageCodePath", 0, 0],
+            ["java/util/jar/JarEntry.getCrc", 0, 0],
+            ["java/util/zip/ZipEntry.getCrc", 0, 0],
+            ["java/util/zip/Adler32.update", 0, 0],
+            ["java/util/zip/CRC32.update", 0, 0],
+            ["java/util/zip/Adler32.getValue", 0, 0],
+            ["java/util/zip/CRC32.getValue", 0, 0],
+            ["java/util/zip/ZipFile.getEntry", 0, 0],
+            ["java/util/zip/ZipFile.entries", 0, 0],
+            ["java/util/jar/JarFile.getEntry", 0, 0],
+            ["java/util/jar/JarFile.entries", 0, 0],
+            ["java/util/jar/JarFile.getJarEntry", 0, 0],
+            ["android/content/Context.getString", 0, 0]
+          ],
+          "attributes": [
+            ["android/content/pm/ApplicationInfo.sourceDir", 0, 0]
+          ],
+          "strings": [
+            ["classes.dex", 0, 0],
+            ["classes2.dex", 0, 0],
+            ["classes3.dex", 0, 0],
+            ["classes4.dex", 0, 0],
+            ["classes5.dex", 0, 0],
+            ["MultiDexExtractor.load(", 0, 0],
+
+
+            ["java.util.zip.ZipFile", 0, 0],
+            ["java.util.zip.ZipEntry", 0, 0],
+            ["java.util.jar.JarFile", 0, 0],
+            ["java.util.jar.JarEntry", 0, 0],
+            ["java.util.zip.Adler32", 0, 0],
+            ["java.util.zip.CRC32", 0, 0],
+            ["android.content.Context", 0, 0],
+            ["android.content.pm.ApplicationInfo", 0, 0],
+
+            ["getPackageCodePath", 0, 0],
+            ["getCrc", 0, 0],
+            ["getCrc", 0, 0],
+            ["update", 0, 0],
+            ["update", 0, 0],
+            ["getValue", 0, 0],
+            ["getValue", 0, 0],
+            ["getEntry", 0, 0],
+            ["entries", 0, 0],
+            ["getEntry", 0, 0],
+            ["entries", 0, 0],
+            ["getJarEntry", 0, 0],
+            ["getString", 0, 0],
+
+            ["sourceDir", 0, 0]
+          ]
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [],
+          "strings": []
+        }, 0, 0]
+      },
+      {
+        "_nameOfTheProtection": ["InstallerVerification", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [
+            ["android/content/pm/PackageInfo", 0, 0],
+            ["android/content/pm/PackageManager", 0, 0],
+            ["android/content/Context", 0, 0]
+          ],
+          "methods": [
+            ["android/content/pm/PackageManager.getInstallerPackageName", 0, 0],
+            ["android/content/Context.getPackageManager", 0, 0],
+            ["android/content/Context.getPackageName", 0, 0],
+            ["android/content/pm/PackageManager.getPackageInfo", 0, 0]
+          ],
+          "attributes": [
+            ["android/content/pm/PackageInfo.packageName", 0, 0],
+            ["android/content/pm/PackageInfo.versionCode", 0, 0],
+            ["android/content/pm/PackageInfo.versionName", 0, 0]
+          ],
+          "strings": [
+            ["com.android.vending", 0, 0],
+            ["com.amazon.venezia", 0, 0],
+            ["com.sec.android.app.samsungapps", 0, 0],
+            ["cm.aptoide.pt", 0, 0],
+            ["org.fdroid.fdroid", 0, 0],
+            ["com.uptodown", 0, 0],
+            ["com.uptodown.lite", 0, 0],
+            ["com.slideme.sam.manager", 0, 0],
+
+            ["android.content.pm.PackageInfo", 0, 0],
+            ["android.content.pm.PackageManager", 0, 0],
+            ["android.content.Context", 0, 0],
+
+            ["getInstallerPackageName", 0, 0],
+            ["getPackageManager", 0, 0],
+            ["getPackageName", 0, 0],
+            ["getPackageInfo", 0, 0],
+
+            ["packageName", 0, 0],
+            ["versionCode", 0, 0],
+            ["versionName", 0, 0]
+          ]
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [],
+          "strings": []
+        }, 0, 0]
+      },
+      {
+        "_nameOfTheProtection": ["SafetyNetAttestation", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [
+            ["com/google/android/gms/safetynet/SafetyNet", 0, 0],
+            ["com/google/android/gms/safetynet/SafetyNetClient", 0, 0],
+            ["com/google/android/gms/safetynet/SafetyNetApi", 0, 0],
+            ["com/google/android/gms/safetynet/SafetyNetApi$AttestationResponse", 0, 0]
+          ],
+          "methods": [
+            ["com/google/android/gms/safetynet/SafetyNet.getClient", 0, 0],
+            ["com/google/android/gms/safetynet/SafetyNetClient.attest", 0, 0],
+            ["com/google/android/gms/safetynet/SafetyNetApi$AttestationResponse.getJwsResult", 0, 0]
+          ],
+          "attributes": [],
+          "strings": [
+            ["basicIntegrity", 0, 0],
+            ["ctsProfileMatch", 0, 0],
+            ["apkDigestSha256", 0, 0],
+            ["apkCertificateDigestSha256", 0, 0],
+            ["apkPackageName", 0, 0],
+            ["timestampMs", 0, 0],
+            ["nonce", 0, 0],
+
+            ["com.google.android.gms.safetynet.SafetyNet", 0, 0],
+            ["com.google.android.gms.safetynet.SafetyNetClient", 0, 0],
+            ["com.google.android.gms.safetynet.SafetyNetApi", 0, 0],
+            ["com.google.android.gms.safetynet.SafetyNetApi$AttestationResponse", 0, 0],
+
+            ["getClient", 0, 0],
+            ["attest", 0, 0],
+            ["AttestationResponse.getJwsResult", 0, 0]
+          ]
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [],
+          "strings": []
+        }, 0, 0]
+      }
+    ]
+  }, {
+    "categoryName": "Anti-Debugging",
+    "protection": [{
+        "_nameOfTheProtection": ["EmulatorDetection", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [
+            ["java/lang/Class", 0, 0],
+            ["java/lang/reflect/Method", 0, 0],
+            ["android/os/Build", 0, 0],
+            ["android/os/Process", 0, 0],
+            ["java/lang/Runtime", 0, 0],
+            ["java/lang/System", 0, 0],
+            ["android/app/ActivityManager", 0, 0]
+          ],
+          "methods": [
+            ["android/app/ActivityManager.isUserAMonkey", 0, 0],
+            ["java/lang/Class.forName", 0, 0],
+            ["java/lang/Class.getMethod", 0, 0],
+            ["java/lang/reflect/Method.invoke", 0, 0],
+            ["java/lang/Runtime.getRuntime", 0, 0],
+            ["java/lang/Runtime.exec", 0, 0]
+          ],
+          "attributes": [
+	    ["android/os/Build.HARDWARE", 0, 0],
+	    ["android/os/Build.BOARD", 0, 0],
+	    ["android/os/Build.BRAND", 0, 0],
+	    ["android/os/Build.DEVICE", 0, 0],
+            ["android/os/Build.FINGERPRINT", 0, 0],
+            ["android/os/Build.MODEL", 0, 0],
+            ["android/os/Build.MANUFACTURER", 0, 0],
+            ["android/os/Build.PRODUCT", 0, 0]
+          ],
+          "strings": [
+            ["android.os.SystemProperties", 0, 0],
+            ["getprop", 0, 0],
+            ["ro.hardware", 0, 0],
+            ["ro.boot.hardware", 0, 0],
+            ["ro.kernel.androidboot.hardware", 0, 0],
+	    ["ro.product.board", 0, 0],
+            ["ro.board.platform", 0, 0],
+	    ["ro.product.brand", 0, 0],
+	    ["ro.product.device", 0, 0],
+	    ["ro.cm.device", 0, 0],
+	    ["ro.bootimage.build.fingerprint", 0, 0],
+	    ["ro.build.fingerprint", 0, 0],
+	    ["ro.product.manufacturer", 0, 0],
+	    ["ro.product.model", 0, 0],
+            ["goldfish", 0, 0],
+            ["ranchu", 0, 0],
+            ["vbox86", 0, 0],
+            ["ttVM_x86", 0, 0],            
+            ["unknown", 0, 0],
+	    ["generic", 0, 0],
+	    ["nox", 0, 0],
+	    ["FRF91", 0, 0],
+	    ["google_sdk", 0, 0],
+            ["generic_x86", 0, 0],
+            ["generic_x86_64", 0, 0],
+            ["Andy", 0, 0],
+            ["Droid4X", 0, 0],
+            ["vbox", 0, 0],
+            ["Genymotion", 0, 0],
+            ["ro.kernel.qemu", 0, 0],
+            ["qemud", 0, 0],
+            ["qemu.sf.lcd_density", 0, 0],
+            ["qemu.hw.mainkeys", 0, 0],
+            ["qemu.sf.fake_camera", 0, 0],
+            ["/dev/socket/qemud",  0, 0],
+            ["/dev/qemu_pipe", 0, 0],
+            ["/system/lib/libc_malloc_debug_qemu.so", 0, 0],
+            ["/sys/qemu_trace", 0, 0],
+            ["/system/bin/qemu-props", 0, 0],
+            ["/dev/socket/genyd", 0, 0],
+            ["/dev/socket/baseband_genyd", 0, 0],
+            ["ro.kernel.android.qemud", 0, 0],
+            ["ro.kernel.qemu.gles", 0, 0],
+            ["init.svc.qemud", 0, 0],
+	    ["init.goldfish.rc", 0, 0],
+            ["qemu.sf.fake_camera", 0, 0],
+	    ["init.svc.qemu-props", 0, 0],
+
+            ["java.lang.Class", 0, 0],
+            ["java.lang.reflect.Method", 0, 0],
+            ["android.os.Build", 0, 0],
+            ["android.os.Process", 0, 0],
+            ["java.lang.Runtime", 0, 0],
+            ["java.lang.System", 0, 0],
+            ["android.app.ActivityManager", 0, 0],
+
+            ["isUserAMonkey", 0, 0],
+            ["forName", 0, 0],
+            ["getMethod", 0, 0],
+            ["invoke", 0, 0],
+            ["getRuntime", 0, 0],
+            ["exec", 0, 0],
+
+            ["FINGERPRINT", 0, 0],
+            ["MODEL", 0, 0],
+            ["MANUFACTURER", 0, 0],
+            ["BRAND", 0, 0],
+            ["DEVICE", 0, 0],
+            ["PRODUCT", 0, 0]
+          ]
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [],
+          "strings": [
+            ["ro.hardware", 0, 0],
+            ["ro.boot.hardware", 0, 0],
+            ["ro.kernel.androidboot.hardware", 0, 0],
+	    ["ro.product.board", 0, 0],
+            ["ro.board.platform", 0, 0],
+	    ["ro.product.brand", 0, 0],
+	    ["ro.product.device", 0, 0],
+	    ["ro.cm.device", 0, 0],
+	    ["ro.bootimage.build.fingerprint", 0, 0],
+	    ["ro.build.fingerprint", 0, 0],
+	    ["ro.product.manufacturer", 0, 0],
+	    ["ro.product.model", 0, 0],
+            ["goldfish", 0, 0],
+            ["ranchu", 0, 0],
+            ["vbox86", 0, 0],
+            ["ttVM_x86", 0, 0],            
+            ["unknown", 0, 0],
+	    ["generic", 0, 0],
+	    ["google_sdk", 0, 0],
+            ["generic_x86", 0, 0],
+            ["generic_x86_64", 0, 0],
+            ["Andy", 0, 0],
+            ["Droid4X", 0, 0],
+            ["nox", 0, 0],
+	    ["FRF91", 0, 0],
+            ["vbox86p", 0, 0],
+            ["Genymotion", 0, 0],
+            ["ro.kernel.qemu", 0, 0],
+            ["qemud", 0, 0],
+            ["qemu.sf.lcd_density", 0, 0],
+            ["qemu.hw.mainkeys", 0, 0],
+            ["qemu.sf.fake_camera", 0, 0],
+            ["/dev/socket/qemud",  0, 0],
+            ["/dev/qemu_pipe", 0, 0],
+            ["/system/lib/libc_malloc_debug_qemu.so", 0, 0],
+            ["/sys/qemu_trace", 0, 0],
+            ["/system/bin/qemu-props", 0, 0],
+            ["/dev/socket/genyd", 0, 0],
+            ["/dev/socket/baseband_genyd", 0, 0],
+            ["ro.kernel.android.qemud", 0, 0],
+            ["ro.kernel.qemu.gles", 0, 0],
+            ["init.svc.qemud", 0, 0],
+	    ["init.goldfish.rc", 0, 0],
+            ["qemu.sf.fake_camera", 0, 0],
+	    ["init.svc.qemu-props", 0, 0]
+	  ]
+        }, 0, 0]
+      },
+      {
+        "_nameOfTheProtection": ["DynamicAnalysisFrameworkDetection", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [
+            ["dalvik/system/DexFile", 0, 0],
+            ["java/lang/StackTraceElement", 0, 0],
+            ["android/app/ActivityManager$RunningServiceInfo", 0, 0],
+            ["android/app/ActivityManager", 0, 0],
+            ["android/content/pm/ApplicationInfo", 0, 0],
+            ["java/util/Enumeration", 0, 0],
+            ["java/lang/reflect/Modifier", 0, 0]
+          ],
+          "methods": [
+            ["java/lang/StackTraceElement.getClassName", 0, 0],
+            ["java/lang/StackTraceElement.getMethodName", 0, 0],
+            ["android/app/ActivityManager.getRunningServices", 0, 0],
+            ["android/content/Context.getPackageCodePath", 0, 0],
+            ["java/lang/reflect/Modifier.isNative", 0, 0],
+            ["dalvik/system/DexFile.entries", 0, 0],
+            ["java/util/Enumeration.hasMoreElements", 0, 0],
+            ["java/util/Enumeration.nextElement", 0, 0]
+          ],
+          "attributes": [
+            ["android/content/pm/ApplicationInfo.sourceDir", 0, 0],
+            ["android/app/ActivityManager$RunningServiceInfo.process", 0, 0],
+            ["android/content/pm/ApplicationInfo.processName", 0, 0]
+          ],
+          "strings": [
+            ["com.saurik.substrate", 0, 0],
+            ["com.saurik.substrate.MS$2", 0, 0],
+            ["de.robv.android.xposed.XposedBridge", 0, 0],
+            ["XposedBridge.jar", 0, 0],
+            ["xposed", 0, 0],
+            ["fridaserver", 0, 0],
+	    ["LIBFRIDA", 0, 0],
+            ["frida", 0, 0],
+            ["frida-gadget", 0, 0],
+            ["frida-agent", 0, 0],
+            ["/proc/self/maps", 0, 0],
+            ["classes.dex", 0, 0],
+            ["classes2.dex", 0, 0],
+            ["classes3.dex", 0, 0],
+            ["classes4.dex", 0, 0],
+            ["classes5.dex", 0, 0],
+
+            ["dalvik.system.DexFile", 0, 0],
+            ["java.lang.StackTraceElement", 0, 0],
+            ["android.app.ActivityManager$RunningServiceInfo", 0, 0],
+            ["android.app.ActivityManager", 0, 0],
+            ["android.content.pm.ApplicationInfo", 0, 0],
+            ["java.util.Enumeration", 0, 0],
+            ["java.lang.reflect.Modifier", 0, 0],
+
+            ["getClassName", 0, 0],
+            ["getMethodName", 0, 0],
+            ["getRunningServices", 0, 0],
+            ["getPackageCodePath", 0, 0],
+            ["isNative", 0, 0],
+            ["entries", 0, 0],
+            ["hasMoreElements", 0, 0],
+            ["nextElement", 0, 0],
+
+            ["sourceDir", 0, 0],
+            ["process", 0, 0],
+            ["processName", 0, 0]
+          ]
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [],
+          "strings": [
+            ["com.saurik.substrate", 0, 0],
+            ["com.saurik.substrate.MS$2", 0, 0],
+            ["de.robv.android.xposed.XposedBridge", 0, 0],
+            ["XposedBridge.jar", 0, 0],
+            ["xposed", 0, 0],
+            ["fridaserver", 0, 0],
+            ["LIBFRIDA", 0, 0],
+            ["frida", 0, 0],
+            ["frida-gadget", 0, 0],
+            ["frida-agent", 0, 0],
+            ["127.0.0.1", 0, 0],
+            ["REJECT", 0, 0],
+            ["/proc/self/maps", 0, 0]
+          ]
+        }, 0, 0]
+      },
+      {
+        "_nameOfTheProtection": ["DebuggerDetection", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [
+            ["android/os/Debug", 0, 0],
+            ["android/app/ActivityManager", 0, 0]
+          ],
+          "methods": [
+            ["android/os/Debug.isDebuggerConnected", 0, 0],
+	    ["android/os/Debug.waitingForDebugger", 0, 0],
+	    ["android/app/ActivityManager.isRunningInTestHarness", 0, 0]
+          ],
+          "attributes": [],
+          "strings": [
+	    ["TracerPid", 0, 0],
+            ["/proc/self/status", 0, 0],
+            ["/proc/", 0, 0],
+            ["/status", 0, 0],
+            ["pid", 0, 0],
+
+            ["android.os.Debug", 0, 0],
+	    ["android.app.ActivityManager", 0, 0],
+
+            ["isDebuggerConnected", 0, 0],
+	    ["waitingForDebugger", 0, 0],
+	    ["isRunningInTestHarness", 0, 0]
+          ]
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [
+            ["fork", 0, 0],
+            ["getppid", 0, 0],
+            ["ptrace", 0, 0],
+            ["waitpid", 0, 0],
+            ["pthread_create", 0, 0],
+            ["pthread_exit", 0, 0],
+            ["WIFSTOPPED", 0, 0],
+            ["pthread_t", 0, 0]
+          ],
+          "strings": [
+            ["TracerPid", 0, 0],
+            ["/proc/self/status", 0, 0],
+            ["/proc/", 0, 0],
+            ["/status", 0, 0],
+            ["pid", 0, 0]	
+          ]
+        }, 0, 0]
+      },
+      {
+        "_nameOfTheProtection": ["DebuggableStatusDetection", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [
+            ["android/content/Context", 0, 0],
+            ["android/content/pm/ApplicationInfo", 0, 0],
+            ["android/os/Process", 0, 0],
+            ["java/lang/Runtime", 0, 0],
+            ["java/lang/System", 0, 0],
+            ["substituteWithTheApplicationPackage/BuildConfig", 0, 0]
+          ],
+          "methods": [
+            ["android/content/Context.getApplicationInfo", 0, 0],
+            ["java/lang/Runtime.getRuntime", 0, 0],
+            ["java/lang/Runtime.exec", 0, 0]
+          ],
+          "attributes": [
+            ["android/content/pm/ApplicationInfo.flags", 0, 0],
+            ["android/content/pm/ApplicationInfo.FLAG_DEBUGGABLE", 0, 0],
+            ["substituteWithTheApplicationPackage/BuildConfig.DEBUG", 0, 0]
+          ],
+          "strings": [
+            ["ro.debuggable", 0, 0],
+	    ["getprop", 0, 0],
+            ["android.os.SystemProperties", 0, 0],
+
+            ["android.content.Context", 0, 0],
+            ["android.content.pm.ApplicationInfo", 0, 0],
+            ["android.os.Process", 0, 0],
+            ["java.lang.Runtime", 0, 0],
+            ["java.lang.System", 0, 0],
+            ["substituteWithTheApplicationPackage.BuildConfig", 0, 0],
+
+            ["getApplicationInfo", 0, 0],
+            ["getRuntime", 0, 0],
+            ["exec", 0, 0],
+
+            ["flags", 0, 0],
+            ["FLAG_DEBUGGABLE", 0, 0],
+            ["DEBUG", 0, 0]
+          ]
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [],
+          "strings": [
+	    ["ro.debuggable", 0, 0]
+	  ]
+        }, 0, 0]
+      },
+      {
+        "_nameOfTheProtection": ["TimeChecks", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [
+            ["android/os/Debug", 0, 0],
+            ["java/lang/System", 0, 0],
+            ["java/time/Instant", 0, 0],
+            ["java/util/Date", 0, 0],
+            ["android/util/TimingLogger", 0, 0]
+          ],
+          "methods": [
+            ["android/os/Debug.threadCpuTimeNanos", 0, 0],
+            ["java/lang/System.nanoTime", 0, 0],
+            ["java/lang/System.currentTimeMillis", 0, 0],
+            ["java/time/Instant.toEpochMilli", 0, 0],
+            ["java/util/Date.getTime", 0, 0],
+            ["android/util/TimingLogger.addSplit", 0, 0],
+            ["android/util/TimingLogger.dumpToLog", 0, 0]
+          ],
+          "attributes": [],
+          "strings": [
+            ["android.os.Debug", 0, 0],
+            ["java.lang.System", 0, 0],
+            ["java.time.Instant", 0, 0],
+            ["java.util.Date", 0, 0],
+            ["android.util.TimingLogger", 0, 0],
+
+            ["threadCpuTimeNanos", 0, 0],
+            ["nanoTime", 0, 0],
+            ["currentTimeMillis", 0, 0],
+            ["toEpochMilli", 0, 0],
+            ["getTime", 0, 0],
+            ["addSplit", 0, 0],
+            ["dumpToLog", 0, 0]
+          ]
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [],
+          "strings": []
+        }, 0, 0]
+      },
+      {
+        "_nameOfTheProtection": ["AlteringDebuggerMemoryStructure", 0, 0],
+        "javaLevelPatterns": [{
+          "classes": [],
+          "methods": [],
+          "attributes": [],
+          "strings": []
+        }, 0, 0],
+        "nativeLevelPatterns": [{
+          "importedSymbols": [
+            ["gDvm", 0, 0]
+          ],
+          "strings": [
+            ["libart.so", 0, 0],
+            ["_ZTVN3art4JDWP12JdwpAdbStateE", 0, 0]
+          ]
+        }, 0, 0]
+      }
+    ]
+  }]
+}

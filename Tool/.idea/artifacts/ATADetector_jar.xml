@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ATADetector:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ATADetector_jar</output-path>
+    <root id="archive" name="ATADetector.jar">
+      <element id="module-output" name="ATADetector" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/asm-commons-6.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/asm-6.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-20180813.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/asm-tree-6.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/asm-analysis-6.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-cli-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/asm-util-6.2.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
