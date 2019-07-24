@@ -1,0 +1,10 @@
+protection, percentageAppImplementingProtection
+SignatureChecking,3432
+CodeIntegrityChecking,47
+InstallerVerification,2922
+SafetyNetAttestation,317
+EmulatorDetection,2065
+DynamicAnalysisFrameworkDetection,150
+DebuggerDetection,1529
+DebuggableStatusDetection,30
+AlteringDebuggerMemoryStructure,0
