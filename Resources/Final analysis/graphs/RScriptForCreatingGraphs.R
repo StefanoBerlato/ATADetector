@@ -56,7 +56,7 @@ barplot(tapc2015[[apps]],
         yaxt="n",
         ylim=c(0,540), 
         cex.names=0.6)
-title("Apps per Category - 2015", line = 1)
+#title("Apps per Category - 2015", line = 1)
 axis(2, at = seq(0, 540, 90), las = 1)
 abline(h = c(90,180,270,360,450,540), col = grey)
 abline(v = c(36.16))
@@ -78,7 +78,7 @@ barplot(tapc2019[[apps]],
         ylab="Number", 
         ylim=c(0,540), 
         cex.names=0.6)
-title("Apps per Category - 2019", line = 1)
+#title("Apps per Category - 2019", line = 1)
 axis(2, at = seq(0, 540, 90), las = 1)
 abline(h = c(90,180,270,360,450,540), col = grey)
 abline(v = c(71.07))
@@ -114,7 +114,7 @@ barplot(rq1AD[[paiad]],
         ylab="Percentage", 
         ylim=c(0,100), 
         cex.names=0.6)
-title("Percentage of Apps adopting at least one AD protection", line = 1)
+#title("Percentage of Apps adopting at least one AD protection", line = 1)
 axis(2, at = seq(0, 100, 10), las = 1)
 abline(h = c(10,20,30,40,50,60,70,80,90,100), col = grey)
 abline(v = c(72.31))
@@ -137,7 +137,7 @@ barplot(rq1AT[[paiat]],
         ylab="Percentage", 
         ylim=c(0,100), 
         cex.names=0.6)
-title("Percentage of Apps adopting at least one AT protection", line = 1)
+#title("Percentage of Apps adopting at least one AT protection", line = 1)
 axis(2, at = seq(0, 100, 10), las = 1)
 abline(h = c(10,20,30,40,50,60,70,80,90,100), col = grey)
 abline(v = c(72.31))
@@ -160,7 +160,7 @@ barplot(rq1P[[paip]],
         ylab="", 
         ylim=c(0,25000), 
         cex.names=0.6)
-title("Apps adopting the related protection", line = 1)
+#title("Apps adopting the related protection", line = 1)
 title(ylab="Number of Apps", line=4, cex.lab=1.2)
 axis(2, at = seq(0, 25000, 5000), las = 1, labels=formatC(axTicks(2), format="d", big.mark=','))
 abline(h = c(5000,10000,15000,20000,25000), col = grey)
@@ -197,7 +197,7 @@ barplot(rq2N[[aip]],
         ylab="", 
         ylim=c(0,8000), 
         cex.names=0.6)
-title("Apps per Number of Protections Implemented", line = 1)
+#title("Apps per Number of Protections Implemented", line = 1)
 title(ylab="Number of Apps", line=4, cex.lab=1.2)
 title(xlab="Number of Protections", line=2.5, cex.lab=1.2)
 axis(2, at = seq(0, 8000, 2000), las = 1, labels=formatC(axTicks(2), format="d", big.mark=','))
@@ -242,7 +242,7 @@ barplot(final,
         ylab="", 
         ylim=c(0,14000), 
         cex.names=0.6)
-title("Apps per Number of Protections Implemented", line = 1)
+#title("Apps per Number of Protections Implemented", line = 1)
 title(ylab="Number of Apps", line=4, cex.lab=1.2)
 title(xlab="Number of Protections", line=2.5, cex.lab=1.2)
 axis(2, at = seq(0, 14000, 2000), las = 1, labels=formatC(axTicks(2), format="d", big.mark=','))
@@ -297,7 +297,7 @@ barplot(final,
         ylab="", 
         ylim=c(0,25000), 
         cex.names=0.6)
-title("Apps per Number of Protections Implemented", line = 1)
+#title("Apps per Number of Protections Implemented", line = 1)
 title(ylab="Number of Apps", line=4, cex.lab=1.2)
 title(xlab="Number of Protections", line=2.5, cex.lab=1.2)
 axis(2, at = seq(0, 25000, 5000), las = 1, labels=formatC(axTicks(2), format="d", big.mark=','))
@@ -326,10 +326,10 @@ final = rbind(
         rq52015[[paip]],
         rq52019[[paip]]
 )
-par(mar=c(4,5,2,1))
+par(mar=c(10,5,2,1))
 barplot(final, 
         names.arg=gsub("_", " ", rq52015[["protection"]]), 
-        las=1, 
+        las=2, 
         beside=T,
         col=cols, 
         border=NA,
@@ -338,13 +338,12 @@ barplot(final,
         ylab="", 
         ylim=c(0,4000), 
         cex.names=0.6)
-title("Common apps adopting the related protection", line = 1)
+#title("Common apps adopting the related protection", line = 1)
 title(ylab="Number of Apps", line=4, cex.lab=1.2)
-title(xlab="Protections", line=2.5, cex.lab=1.2)
+title(xlab="Protections", line=8, cex.lab=1.2)
 axis(2, at = seq(0, 4000, 1000), las = 1, labels=formatC(axTicks(2), format="d", big.mark=','))
 abline(h = c(500,1000,1500,2000,2500,3000,3500,4000), col = grey)
 abline(v = c(31.14))
 legend(bg=white,'topright', fill=cols, legend=c("2015", "2019"))
 dev.off()
-
 
