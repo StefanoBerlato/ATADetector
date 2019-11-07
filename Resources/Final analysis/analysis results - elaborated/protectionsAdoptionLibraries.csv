@@ -1,0 +1,10 @@
+protection, LibrariesInAppImplementingProtection
+SignatureChecking,15454
+CodeIntegrityChecking,73
+InstallerVerification,12109
+SafetyNetAttestation,2572
+EmulatorDetection,7477
+DynamicAnalysisFrameworkDetection,729
+DebuggerDetection,7661
+DebuggableStatusDetection,453
+AlteringDebuggerMemoryStructure,0
