@@ -219,7 +219,9 @@ protectionsNumberLibraries <- read.csv(paste(path, "protectionsNumberLibrariesOn
 
 nop = "numberOfProtections"
 noa = "numberOfApps"
+paip3 = "LibrariesInAppImplementingProtection"
 
+protectionsAdoptionLibraries <- read.csv(paste(path, "protectionsAdoptionLibraries.csv", sep=""))
 
 # 2019. X axis number of protections adopted in apps code and libraries only Y axis number of apps implementing that number of protections
 cols <- c(blue,red)
@@ -227,21 +229,21 @@ pdf(file = "rq3NumberOfProtectionsLibrariesAndCode", height = 4)
 rq3N <- protectionsNumberUserCode
 rq3L <- protectionsNumberLibraries
 final = rbind(
-        rq3N[[noa]],
-        rq3L[[noa]]
+    	rq3N[[noa]],
+    	rq3L[[noa]]
 )
 par(mar=c(4,5,2,1))
-barplot(final, 
-        names.arg=gsub("_", " ", rq3N[[nop]]), 
-        las=1, 
-        beside=T,
-        col=cols, 
-        border=NA,
-        xpd=FALSE,
-        yaxt="n",
-        ylab="", 
-        ylim=c(0,14000), 
-        cex.names=0.6)
+barplot(final,
+    	names.arg=gsub("_", " ", rq3N[[nop]]),
+    	las=1,
+    	beside=T,
+    	col=cols,
+    	border=NA,
+    	xpd=FALSE,
+    	yaxt="n",
+    	ylab="",
+    	ylim=c(0,14000),
+    	cex.names=0.6)
 #title("Apps per Number of Protections Implemented", line = 1)
 title(ylab="Number of Apps", line=4, cex.lab=1.2)
 title(xlab="Number of Protections", line=2.5, cex.lab=1.2)
@@ -250,6 +252,31 @@ abline(h = c(2000, 4000, 6000, 8000, 10000, 12000, 14000), col = grey)
 abline(v = c(31.14))
 legend(bg=white,'topright', fill=cols, legend=c("App Code Only", "Third-Party Libraries Only"))
 dev.off()
+
+
+# 2019. X axis protections. Y axis number of apps implementing the protection in the libraries
+pdf(file = "rq3ProtectionsLibraries.pdf", height = 4)
+rq3LA <- protectionsAdoptionLibraries[order(protectionsAdoptionLibraries[paip3],
+                              	decreasing=TRUE),]
+cols <- c(blue, blue)[((rq3LA[["protection"]] == allCategory)) + 1]
+par(mar=c(10,5,2,1))
+barplot(rq3LA[[paip3]],
+    	names.arg=gsub("_", " ", rq3LA[["protection"]]),
+    	las=2,
+    	col=cols,
+    	border=NA,
+    	xpd=FALSE,
+    	yaxt="n",
+    	ylab="",
+    	ylim=c(0,25000),
+    	cex.names=0.6)
+#title("Apps adopting the related protection in library", line = 1)
+title(ylab="Number of Apps", line=4, cex.lab=1.2)
+axis(2, at = seq(0, 25000, 5000), las = 1, labels=formatC(axTicks(2), format="d", big.mark=','))
+abline(h = c(5000,10000,15000,20000,25000), col = grey)
+abline(v = c(11.22))
+dev.off()
+
 
 
 
