@@ -7,11 +7,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.File;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
 import java.util.Date;
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Scanner;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -34,9 +31,8 @@ public class MainAPKLooper {
     static JSONObject protectionATADPatterns;
     private static JSONObject finalReport;
 
-    // where to save results
-    private static final String resultsFolderPath = System.getProperty("user.dir") + "/results";
-    static File resultsFolder = new File(resultsFolderPath);
+    public static String resultsFolderPath;
+    public static File resultsFolder;
 
     // do we have to search for JAVA patterns only in the main package (the one specified in
     // the manifest file)? (used for testing)
@@ -106,6 +102,12 @@ public class MainAPKLooper {
         apks.setRequired(true);
         options.addOption(apks);
 
+        Option outputFolderOption = new Option("r", "OutputFolder", true,
+                "path to the directory that will contain the output of the analysis. Any content in" +
+                        "the directory will be overwritten!");
+        outputFolderOption.setRequired(true);
+        options.addOption(outputFolderOption);
+
         Option patterns = new Option("j", "pathOfJSON", true, "path of JSON file containing " +
                 "the protection patterns to detect. Don't specify if you want to use the default one");
         patterns.setRequired(false);
@@ -131,7 +133,7 @@ public class MainAPKLooper {
         options.addOption(threadsOption);
 
         Option onlyMainPackageOption = new Option("o", "onlyMainPackage", true, "Set to \"true\" if have to search" +
-                "for JAVA patterns only in the application main package (retrieved from manifest). Not a good idea except when" +
+                " for JAVA patterns only in the application main package (retrieved from manifest). Not a good idea except when" +
                 " doing training and tuning");
         onlyMainPackageOption.setRequired(false);
         options.addOption(onlyMainPackageOption);
@@ -148,7 +150,12 @@ public class MainAPKLooper {
         catch (ParseException e) {
 
             // log error
-            ATADLogger.logError(className, mainMethodName, "wrong usage or arguments: " + options, null);
+            ATADLogger.logError(className, mainMethodName, "wrong usage or arguments", null);
+
+            String header = "\nATADetector finds anti-debugging and anti-tampering protections in android APKs\n\n";
+            String footer = "\nPlease report issues to sberlato@fbk.eu";
+            HelpFormatter formatter = new HelpFormatter();
+            formatter.printHelp("ATADetector", header, options, footer, true);
 
             // exit with status 1
             exit(1);
@@ -157,6 +164,11 @@ public class MainAPKLooper {
         // get the mandatory parameters
         // get the path of the apks directory
         pathOfAPKS = cmd.getOptionValue("pathOfAPKs");
+
+        // get the output path
+        // where to save results
+        resultsFolderPath = cmd.getOptionValue("OutputFolder");
+        resultsFolder = new File(resultsFolderPath);
 
         // get the optional parameters
         // get the custom json
@@ -189,7 +201,7 @@ public class MainAPKLooper {
             try {
 
                 // cast from string to int
-                verbosityLevel = Integer.valueOf(tempVerbosity);
+                verbosityLevel = Integer.parseInt(tempVerbosity);
 
             }
             // catch an eventual exception
@@ -217,7 +229,7 @@ public class MainAPKLooper {
             try {
 
                 // cast from string to int
-                maxNumberOfThread = Integer.valueOf(tempThreadNumber);
+                maxNumberOfThread = Integer.parseInt(tempThreadNumber);
 
                 // if the number is less than 0
                 if (maxNumberOfThread < 1) {
@@ -254,7 +266,7 @@ public class MainAPKLooper {
 
         // last thing to setup: create the results folder
         // delete it if there is an old one
-        /*if (resultsFolder.exists()) {
+        if (resultsFolder.exists()) {
 
             if (!FileUtil.deleteDirectory(resultsFolder)) {
 
@@ -263,7 +275,7 @@ public class MainAPKLooper {
                         " folder =>" + resultsFolder.getAbsolutePath() + ". Exiting...", null);
                 exit(1);
             }
-        }*/
+        }
 
         if (!resultsFolder.exists()) {
 
@@ -442,7 +454,7 @@ public class MainAPKLooper {
                 "The analysis started at: " + new Date(initTime) +"\n" +
                 "and finished  at time  : " + new Date(endTime) + "\n" +
                 "(time elapsed in milliseconds = " + (endTime - initTime) + ")\n\n" +
-                "You can find in the apks folder the final json report.\n" +
+                "You can find in the output folder the final json report.\n" +
                 "Thank you!");
 
         // exit with status 0
@@ -514,8 +526,8 @@ public class MainAPKLooper {
 
         // log the number of applications analyzed
         ATADLogger.logError(className, sumLongVersionOfJSONReports, "Analysis on app " + apkName + " exited because" +
-                "on an error: " + errorDescription + "\n" +
-                "apps analyzed: " + (successfulFinishedJobs + errorFinishedJobs) + "/" + numberOfFoundAPKs, null);
+                " of an error: " + errorDescription + "\n" +
+                " apps analyzed: " + (successfulFinishedJobs + errorFinishedJobs) + "/" + numberOfFoundAPKs, null);
     }
 
     /**

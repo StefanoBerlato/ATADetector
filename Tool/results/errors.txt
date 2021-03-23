@@ -1,1 +1,0 @@
-ru3ch.widgetrpg.apk : error in creating temporary directory for storing JAR file

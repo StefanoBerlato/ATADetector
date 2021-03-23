@@ -7,186 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8583b06-7a63-4c19-80bd-07fcc2577260" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-baksmali.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-baksmali.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex-recompute-checksum.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex-recompute-checksum.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex2jar.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex2jar.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex2smali.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-dex2smali.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jar2dex.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jar2dex.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jar2jasmin.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jar2jasmin.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jasmin2jar.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-jasmin2jar.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-smali.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-smali.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-std-apk.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j-std-apk.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j_invoke.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/d2j_invoke.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/antlr-runtime-3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/asm-debug-all-4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/d2j-base-cmd-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/d2j-jasmin-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/d2j-smali-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-ir-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-reader-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-reader-api-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-tools-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-translator-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dex-writer-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-2.0/lib/dx-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/NOTICE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/bin/dex-tools" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/bin/dex-tools.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-apk-sign.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-apk-sign.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-asm-verify.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-asm-verify.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-baksmali.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-baksmali.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-class-version-switch.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-class-version-switch.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-decrypt-string.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-decrypt-string.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex-recompute-checksum.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex-recompute-checksum.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex-weaver.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex-weaver.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex2jar.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex2jar.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex2smali.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-dex2smali.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar-access.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar-access.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar-weaver.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar-weaver.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar2dex.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar2dex.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar2jasmin.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jar2jasmin.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jasmin2jar.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-jasmin2jar.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-smali.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-smali.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-std-apk.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j-std-apk.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j_invoke.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/d2j_invoke.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/ST4-4.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/antlr-3.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/antlr-runtime-3.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/antlr4-4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/antlr4-runtime-4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/asm-debug-all-5.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/d2j-base-cmd-2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/d2j-jasmin-2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/d2j-smali-2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-ir-2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-reader-2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-reader-api-2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-tools-2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-translator-2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dex-writer-2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/dx-23.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/open-source-license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ATADetector_jar/ATADetector/resources/lib/dex2jar-nightly-2.1/lib/org.abego.treelayout.core-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ATADetector/META-INF/ATADetector.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/errors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/finalReport.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/finalReport_short.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unitn/atadetector/ATADetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unitn/atadetector/ATADetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unitn/atadetector/MainAPKLooper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unitn/atadetector/MainAPKLooper.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/MainAPKLooper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6615">
-              <caret line="457" column="30" selection-start-line="457" selection-start-column="30" selection-end-line="457" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/ATADetector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="174" column="16" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#ATADetector#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/JSONSolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/javalevel/ATADJavaLevel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/FileUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4065">
-              <caret line="284" column="19" selection-start-line="284" selection-start-column="19" selection-end-line="284" selection-end-column="19" />
-              <folding>
-                <element signature="method#saveFileOnFileSystem#0;class#FileUtil#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/ATADLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="139" selection-start-line="139" selection-end-line="139" />
-              <folding>
-                <element signature="docComment;class#ATADLogger#0" />
-                <element signature="docComment;method#logError#0;class#ATADLogger#0" />
-                <element signature="method#logError#0;class#ATADLogger#0" />
-                <element signature="docComment;method#logWarning#0;class#ATADLogger#0" />
-                <element signature="method#logWarning#0;class#ATADLogger#0" />
-                <element signature="docComment;method#logInfo#0;class#ATADLogger#0" />
-                <element signature="method#logInfo#0;class#ATADLogger#0" />
-                <element signature="docComment;method#logVerboseInfo#0;class#ATADLogger#0" />
-                <element signature="method#logVerboseInfo#0;class#ATADLogger#0" />
-                <element signature="docComment;method#directlyLog#0;class#ATADLogger#0" />
-                <element signature="method#directlyLog#0;class#ATADLogger#0" />
-                <element signature="docComment;method#getStringFromException#0;class#ATADLogger#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -237,7 +69,15 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/ATADLogger.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/it/unitn/atadetector/MainAPKLooper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/it/unitn/atadetector/ATADetector.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/JSONSolver.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/it/unitn/atadetector/util/FileUtil.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/it/unitn/atadetector/javalevel/ATADJavaLevel.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -274,7 +114,8 @@
     <option name="width" value="1602" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectId" id="1q9H5r7KlvTskvEkqZ711HdF3Iz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -298,11 +139,15 @@
       <pane id="Course" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowDebug.ShowToolbar" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552495571291" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="aws" />
@@ -314,18 +159,6 @@
       <recent name="$PROJECT_DIR$/src/resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="ATADetector" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unitn.atadetector.MainAPKLooper" />
@@ -336,6 +169,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

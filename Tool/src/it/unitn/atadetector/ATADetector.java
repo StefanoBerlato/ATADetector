@@ -16,6 +16,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
+import static it.unitn.atadetector.MainAPKLooper.resultsFolder;
 import static it.unitn.atadetector.util.JSONSolver.applyFormulasOnJSON;
 
 
@@ -33,8 +34,8 @@ public class ATADetector extends Thread {
     private static final String runMethodName = "run";
 
     // dex2jar variables
-    //static  String dex2jarPath = "/resources/lib/dex2jar-2.0/d2j-dex2jar.sh";
-    static  String dex2jarPath = "/kore-ns-groups/st/sberlato/ATADetector//resources/lib/dex2jar-nightly-2.1/d2j-dex2jar.sh";
+    static  String dex2jarPath = "resources/dex2jar-2.0/d2j-dex2jar.sh";
+    //static  String dex2jarPath = "/kore-ns-groups/st/sberlato/ATADetector//resources/lib/dex2jar-nightly-2.1/d2j-dex2jar.sh";
     private static String dex2jarAbsPath = null;
 
     // filters for libraries to avoid during the extraction of JAVA classes from the JAR
@@ -103,7 +104,7 @@ public class ATADetector extends Thread {
         String apkNameWithoutExtension = FileUtil.getFileNameAndExtension(apkFile.getName())[0];
 
         // the directory where to store temporary files
-        File temporaryDirectory = new File("/scratch/" + apkNameWithoutExtension);
+        File temporaryDirectory = new File(resultsFolder.getAbsolutePath() + "/" + apkNameWithoutExtension);
 
         // if the directory exists already, clean it
         if (temporaryDirectory.exists()) {
@@ -143,16 +144,16 @@ public class ATADetector extends Thread {
         // ===== this code was added just for launching the algorithm in a HPC. Thus you may want to delete it ====
         // log info
         ATADLogger.logInfo(className, analyzeApplicationMethodName, "copying the apk from " +
-                apkFile.getAbsolutePath() +  " to local scratch repository");
+                apkFile.getAbsolutePath() +  " to temporary folder");
         // try to copy the apk to local folder
         try {
 
             // create a process builder to run the dex2jar program
-            ProcessBuilder pb = new ProcessBuilder("cp " +
-                    apkFile.getAbsolutePath() + " " + temporaryDirectory.getAbsolutePath() + "/" + apkFile.getName());
+            ProcessBuilder pb = new ProcessBuilder("cp",
+                    apkFile.getAbsolutePath(), temporaryDirectory.getAbsolutePath() + "/" + apkFile.getName());
 
             // set the working directory to be the temporary one
-            pb.directory(temporaryDirectory);
+            // pb.directory(temporaryDirectory);
 
             // redirect output to log file
             pb.redirectErrorStream(true);
@@ -168,7 +169,7 @@ public class ATADetector extends Thread {
         catch (IOException | InterruptedException e) {
 
             // notify error and return
-            MainAPKLooper.notifyError(apkFile.getName(), "not able to copy to scratch folder: " +
+            MainAPKLooper.notifyError(apkFile.getName(), "not able to copy to temporary folder: " +
                     FileUtil.getStringFromStackTrace(e));
             return;
         }
@@ -495,10 +496,10 @@ public class ATADetector extends Thread {
 
         // save the JSON file for this report
         boolean saveResultLongVersion = FileUtil.saveFileOnFileSystem(
-                MainAPKLooper.resultsFolder.getAbsolutePath() + "/" + apkNameWithoutExtension + ".json",
+                resultsFolder.getAbsolutePath() + "/" + apkNameWithoutExtension + ".json",
                 reportForThisAPK.toString(2).getBytes(), 1);
         boolean saveResultShortVersion = FileUtil.saveFileOnFileSystem(
-                MainAPKLooper.resultsFolder.getAbsolutePath() + "/" + apkNameWithoutExtension + "_short.json",
+                resultsFolder.getAbsolutePath() + "/" + apkNameWithoutExtension + "_short.json",
                 shortJSONReportVersion.toString(2).getBytes(), 1);
 
         // if there was an error while saving the JSONs
