@@ -11,4 +11,5 @@ To run ATADetector:
 5. add your APKs in the input folder ("-p") for the complete analysis.
 
 <hr />
+
 The paper was published by the **Journal of Information Security and Applications** in the volume 52, June 2020. A PDF version of the pre-print can be found [**in my website**](https://stefanoberlato.it/publications/)
