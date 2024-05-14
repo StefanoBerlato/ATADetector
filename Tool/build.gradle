@@ -1,0 +1,35 @@
+buildscript {
+  repositories {
+    mavenCentral()
+    gradlePluginPortal()
+  }
+  dependencies {
+    classpath "gradle.plugin.com.github.johnrengelman:shadow:7.1.2"
+  }
+}
+
+plugins {
+  id 'application'
+  id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group 'it.unitn'
+version '1.0-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+application {
+  mainClass = 'it.unitn.atadetector.MainAPKLooper'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.ow2.asm:asm:6.2.1'
+  implementation group: 'commons-cli', name: 'commons-cli', version: '1.4'
+  implementation group: 'org.json', name: 'json', version: '20180813'
+}
+
+
+
